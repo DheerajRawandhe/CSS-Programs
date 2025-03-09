@@ -1,0 +1,26 @@
+h1{
+    color: #1b74e4 !important;
+}
+.userbtn{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+
+#myId{
+    color: green;
+}
+
+/* ------Qus 2.---------------- */
+
+h1{
+    color: pink;
+}
+#greet{
+    color: yellow;
+}
+.myclass{
+    color: brown;
+}

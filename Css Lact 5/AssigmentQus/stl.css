@@ -1,0 +1,42 @@
+/*-------Qus 1.----------------------- */
+
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #00ffe5;
+    text-align: center; 
+}
+.container div{
+    height: 100px;
+    width: 100px;
+    margin: 6px;
+    background-color: gray;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+/*-------Qus 2.----------------------- */
+
+.bar{
+    height: 60px;
+    width: 900px;
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 255, 170);
+   
+}
+.option{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.option:hover{
+    color:rgb(255, 0, 247);
+
+}

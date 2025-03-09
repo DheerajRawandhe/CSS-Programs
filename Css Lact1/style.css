@@ -1,0 +1,25 @@
+h1{
+    color:#ffc511;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:rgb(0, 255, 234) double underline;
+   
+}
+button{
+    background-color: #7fff00;
+    color:red;
+}
+h3{
+    width:50%;
+    text-align:justify;
+    text-decoration:wavy red  underline;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 3;
+  
+}

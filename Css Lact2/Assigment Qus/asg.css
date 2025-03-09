@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+h1 , h3 ,h5{
+    font:Georgia;
+}
+p{
+    background-color: cornflowerblue;
+    color: yellow;
+}
+button:hover{
+    background-color: rgb(255, 255, 12) ;
+    color: rgb(17, 0, 255);
+}
+h1::first-letter{
+    color: red;
+
+}
+#yes:checked + label {
+    color: green;
+    }

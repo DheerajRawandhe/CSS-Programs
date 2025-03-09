@@ -1,0 +1,26 @@
+.con{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;               
+    justify-content:flex-start;
+
+}
+.con div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#g{
+    align-items: center;
+    flex-basis: 60px;
+    flex-shrink: 2;
+    flex: 2 2 100px;
+}
+#b{
+    /* flex-grow: 1; */
+    flex-shrink: 9;
+}

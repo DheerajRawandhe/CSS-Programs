@@ -1,0 +1,25 @@
+#con{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;               
+    justify-content:flex-start;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    align-content: space-around;
+   
+}
+#con div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#gr{
+    flex-basis: 100px;
+    align-self: flex-end;
+
+
+}

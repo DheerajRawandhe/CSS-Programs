@@ -1,0 +1,23 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    border: 2px solid black;
+    
+
+}
+#one{
+   transform: rotate(190deg);       /*  Rotate use */
+        /*transform: scale(1.2 ,1);      /*scale use  -> X, Y value  */
+
+}
+#two{
+    transform: translate(200px);   /* Translate use*/
+    background:linear-gradient(red,blue);
+
+}
+#three{
+    transform: skew(30deg);   
+    /* transform: rotate(200deg); */
+}

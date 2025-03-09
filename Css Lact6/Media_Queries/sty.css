@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+@media(min-width : 400px){
+    div{
+        background-color: rgb(255, 0, 0);
+        color: white;
+    }
+    @media(max-width :600px){
+        div{
+            background-color: chartreuse;
+        }
+    }
+}
+
+@media(min-width:200px) and (max-width:400px){
+    h1{
+     color: rgb(255, 0, 208);
+    }
+}
+@media(orientation:landscape){
+    div{
+        background-color: rgb(255, 81, 0);
+    }
+}

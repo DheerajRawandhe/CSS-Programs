@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition: all 1s ease-in 0.2s;    
+}
+div:hover{
+    margin-top: 10px;
+    background-color: rgb(226, 43, 43);
+}

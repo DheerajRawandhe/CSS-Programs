@@ -1,0 +1,50 @@
+/* Selectors */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: crimson;
+}
+#login{
+    background-color: blue;
+    color: white;
+}
+.vote{
+    background-color: rgb(255, 132, 0);
+    color: white;
+}
+
+
+/* Descendant Selector */
+
+p a{
+    background-color: darkmagenta;
+    color: rgb(255, 230, 0);
+}
+nav ul li {
+    color: red;
+}
+/* Combinator sibling */
+p + h3{
+    color: rgb(0, 229, 255);
+    text-decoration: underline;
+    
+}
+
+/* Child Combinator */
+
+div>input{
+    background-color:rgb(92, 74, 90) ;
+    color: rgb(255, 255, 255);
+}  
+
+/* attribute selector */
+input[type="text"]{
+    color:red;
+}
+input[type="password"]{
+    color: aqua;
+}
+input[type]{
+    background-color: azure;   
+}

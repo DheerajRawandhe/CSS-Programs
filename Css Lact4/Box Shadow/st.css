@@ -1,0 +1,18 @@
+
+#b{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px red;
+
+}
+/*================================== */
+#i{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    border: 2px solid black;
+background-image: url(dr3.png);
+background-size: 100px;
+}

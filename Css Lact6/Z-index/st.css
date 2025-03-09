@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+.one{
+    background-color: aqua;
+    position: relative;
+    z-index:2;
+}
+.two{
+    position: relative;
+    bottom: 23px;
+    z-index: 1;
+    background-color: red;
+}

@@ -1,0 +1,42 @@
+.container{
+    height: 560px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(61, 96, 202);
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(white,rgb(255, 0, 0),yellow,rgb(5, 255, 5),rgb(255, 0, 200));
+    border-radius: 50%;
+    position:absolute;
+    /* bottom: 0;
+    left: 0; */
+    animation:animatex 3s linear  infinite, animatey 1s ease-out alternate infinite ;
+}
+@keyframes animatex{
+    0%{
+        left: 0;
+
+    }
+    50%{
+        left:50%;
+    }
+    100%{
+        left: 100%;
+
+
+    }
+}
+@keyframes animatey{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        left:50%;
+    }
+    100%{
+        bottom: 100%;
+    }
+}

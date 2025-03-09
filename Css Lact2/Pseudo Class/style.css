@@ -1,0 +1,39 @@
+div{
+    margin: 5px;
+}
+
+
+/* Pseudo Class------------------------------------------ */
+
+/*{Hover} button par cusor le jane ke bad btn par hover  */
+button:hover{
+    background-color: black;
+    color:red;
+    cursor:pointer;
+}
+
+/* active  */
+button:active{
+    background-color: aqua;
+}
+#pa:hover{
+    background-color: chartreuse;
+}
+
+/*  {Clicked  */
+
+input[type="radio"]:checked +label {
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type */
+
+div:nth-of-type(3n){
+    background-color:rgb(177, 152, 87) ;
+}
+
+/* Psuedo element----------------------------------- */
+h1::first-letter{
+    color: aqua;
+}

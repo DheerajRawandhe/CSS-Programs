@@ -1,0 +1,14 @@
+.container{
+    height: 40vh;
+    display: grid;
+    background-color: rgb(251, 109, 0);
+     grid-gap: 10px 15px;
+    /* grid-template-columns: 200px 100px 60px auto ;   */
+    grid-template-columns: auto auto auto ;
+    grid-column:calc(2) ;
+
+}
+.item{
+    background-color: rgb(0, 251, 255);
+    border: 2px solid black;        
+}
